@@ -1,0 +1,21 @@
+table, tr, td {
+    border: 10px solid black;
+    border-collapse: collapse;
+}
+
+
+.bg-red {
+    background: #b20002;
+}
+.bg-blue {
+    background: #00125e;
+}
+.bg-yellow {
+    background: #fff33f;
+}
+.bg-gray {
+    background: #d6d5db;
+}
+.image {
+    margin: 50px 0 50px 0;
+}
