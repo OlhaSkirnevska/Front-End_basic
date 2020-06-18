@@ -1,0 +1,30 @@
+* {
+    background-color: #eeecdb;
+}
+h1 {
+    color: #460023;
+    text-align: center;
+}
+p {
+    text-align: justify;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+button {
+    font-size: 20px;
+    color: #e5f3e4;
+    margin: 40px;
+    height: 60px;
+    width: 120px;
+    background-color: #865f6d;
+    border-radius: 5px;
+}
+img.logo-image {
+    height: 150px;
+    border: 3px solid #460023;
+    border-radius: 8px;
+}
+a.logo {
+    margin: 40px;
+}
