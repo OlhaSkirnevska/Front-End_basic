@@ -1,0 +1,19 @@
+* {
+    background-color: #fcf6db;
+    color: #0f3200;
+    font-size: 18px;
+}
+form {
+    margin: 50px 600px 50px 300px;
+    padding: 2em;
+    border: 3px solid firebrick;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #50030b;
+    line-height: 50px;
+}
+.btn{
+    margin-bottom: 30px;
+    background-color: #f3e6a6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #d59588;
+}

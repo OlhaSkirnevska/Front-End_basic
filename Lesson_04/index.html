@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+<form action="">
+    <div>
+        <label for="Login">Логин:</label>
+        <input type="text" name="Login" class="form" id="Login" placeholder="Введите логин" required/>
+    </div>
+    <div>
+        <label for="Password">Пароль:</label>
+        <input type="password" name="Password" class="form" id="Password" placeholder="Введите пароль" required/>
+    </div>
+    <div>
+        <label for="Surname">Фамилия:</label>
+        <input type="text" name="Surname" class="form" id="Surname" placeholder="Введите фамилию" required/>
+    </div>
+    <div>
+        <label for="Name">Имя:</label>
+        <input type="text" name="Name" class="form" id="Name" placeholder="Введите имя" required/>
+    </div>
+    <div>Ваш пол:
+        <input type="radio" id="Male" name="Gender" value="Male">
+        <label for="Male">Мужской</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Женский</label>
+    </div>
+    <div>
+        <label for="Date_of_Birth">Дата рождения:</label>
+        <input type="date" name="Date_of_Birth" class="form" id="Date_of_Birth"required/>
+    </div>
+    <div>
+        <label for="E-mail">E-mail:</label>
+        <input type="email" name="E-mail" class="form" id="E-mail" placeholder="Введите e-mail" required/>
+    </div>
+    <div>
+        <label for="Country">Страна</label>
+        <input type="text" name="Country" class="form" id="Country" placeholder="Укажите Вашу страну" required/>
+    </div>
+    <div>
+        <label for="City">Город</label>
+        <input type="text" name="City" class="form" id="City" placeholder="Укажите Ваш город" required/>
+    </div>
+    <div>
+        <label for="Phone_number">Номер телефона</label>
+        <input type="tel" name="Phone_number" class="form" id="Phone_number" placeholder="+380123456789" pattern="\+380[0-9]{9}" required/>
+    </div>
+    <div>
+        <label for="Tell_about_yourself">О себе:</label>
+        <textarea name="Tell_about_yourself" class="form"  id="Tell_about_yourself" cols="40" rows="5" placeholder="Раскажите о себе" required></textarea>
+    </div>
+    <div>
+        <label for="language">Родной язык </label>
+        <select name="language" class="form" id="language">
+            <option>Украинский</option>
+            <option>Русский</option>
+            <option>Польский</option>
+        </select>
+    </div>
+    <div>
+        <label for="personal_data">Я разрешаю передать мои личные данные преподавателю</label>
+        <input name="personal_data" class="form"  id="personal_data" type="checkbox" checked="checked" />
+    </div>
+    <input  class="btn" type="submit" value="Отправить">
+</form>
+
+
+
+
+</body>
+</html>
+
+
